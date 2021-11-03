@@ -1,0 +1,28 @@
+/*STYLE*/
+@import '../public/css/import/fonts.css';
+@import '../public/css/import/global.css';
+@import '../public/css/import/list_post1.css';
+@import '../public/css/import/list_product.css';
+@import '../public/css/import/add_cat.css';
+@import '../public/css/import/add_admin.css';
+@import '../public/css/import/update_admin.css';
+@import '../public/css/import/info_account.css';
+@import '../public/css/import/change_pass.css';
+@import '../public/css/import/sidebar.css';
+@import '../public/css/import/menu.css';
+@import '../public/css/import/detail_order.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+.error, .num-rows{
+
+    color: red;
+    font-style: italic;
+}
+/* 
+color status 
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+#detail-page .section-detail  #num_order, #code{ cursor: not-allowed; background: #f3f3f3;}

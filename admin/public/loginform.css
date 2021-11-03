@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+
+body {
+    
+  font-size: 14px;
+  font-family: arial;
+  line-height: 32px;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+}
+input:focus {
+  outline: none;
+}
+
+#wp-form-login {
+  width: 300px;
+  min-height: 200px;
+  text-align: center;
+  margin: 150px auto;
+  padding: 30px 20px;
+  background: #f2f8f8;
+  border-radius: 15px;
+}
+#head-form {
+  font-size: 18px;
+  padding: 0 0 5px;
+  font-weight: 600;
+}
+#username,
+#password,
+#email,
+#fullname,
+#phone-number {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  padding: 10px 5px;
+  background: #f7f7f7;
+  outline: none;
+  margin: 20px 0;
+  transition: all 0.3s;
+}
+#username:focus,
+#password:focus {
+  border-bottom: 2px solid #2660f0;
+}
+
+label {
+  color: #2660f0;
+  font-size: 14px;
+  display: none;
+  font-weight: bold;
+  text-align: left;
+}
+#btn-login,
+#btn-new-pass {
+  display: block;
+  width: 100%;
+  background: #2660f0;
+  margin: 30px 0px;
+  padding: 10px 0px;
+  border: none;
+  color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+#forget-password,
+#register {
+  color: #2660f0;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+.error {
+  color: red;
+}
+#remember-me {
+  color: #1742af;
+}
+/* effect */
+.effect1 {
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+.effect1 div {
+  border: 2px solid #e8cbc0;
+  width: 40px;
+  height: 40px;
+  animation: spin 10s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.effect2 {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  width: 40px;
+  bottom: 40px;
+  right: 30px;
+  animation: topBounce 3s ease-in-out infinite;
+}
+
+.effect2 div {
+  width: 3px;
+  height: 3px;
+  background-color: #e8cbc0;
+  margin: 1px 3px;
+}
+
+@keyframes topBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+}
+.effect3 {
+  position: absolute;
+  top: -50px;
+  left:50%;
+  animation: run 3s ease-in-out infinite;
+}
+.effect3 div {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #e8cbc0;
+  border-radius: 50%;
+}
+@keyframes run {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+
+    
+}
